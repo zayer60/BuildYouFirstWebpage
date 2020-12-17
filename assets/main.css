@@ -223,6 +223,13 @@ hero p{
   font-size: 24px;
 }
 
+.teaser img{
+  max-width: 100%;
+  display:block;
+  margin-bottom:22px;
+  border-radius:5px;
+}
+
 /*
   ========================================
   Custom styles
@@ -233,6 +240,7 @@ body{
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 
 /*
   ========================================
@@ -268,6 +276,14 @@ color: #648880;
   ========================================
 */
 
+.nav li{
+  display:inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}
+.nav li:last-child{
+  margin: 0;
+}
 .nav {
   text-align: right;
 }
@@ -304,5 +320,42 @@ color: #648880;
 .lead p{
   font-size: 21px;
   line-height: 33px;
+}
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+.speaker{
+  margin-bottom: 44px;
+}
+.speaker-info{
+  border: 1px solid #dfe2e5;
+  border-radius: 5px;
+  margin-top: 88px;
+  padding-bottom: 22px;
+  text-align: center;
+}
+speaker-info img{
+  border-radius: 50%;
+  height: 130px;
+  margin: -66px 0 22px 0;
+  vertical-align: top;
+}
+/*
+  ========================================
+  Venue
+  ========================================
+*/
+
+.venue-theatre{
+  margin-bottom: 66px;
+}
+.venue-hotel{
+margin-bottom: 22px;
+}
+.venue-map{
+  height: 264px;
 }
 
